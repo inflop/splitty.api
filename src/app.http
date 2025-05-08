@@ -1,0 +1,40 @@
+###
+#
+POST http://localhost:8080/api/events
+Content-Type: application/json
+
+{
+    "name": "Wakacje w górach",
+    "participants": [
+      {"id": 1, "name": "R", "email": "r@example.com"},
+      {"id": 2, "name": "P", "email": "p@example.com"},
+      {"id": 3, "name": "C", "email": "c@example.com"}
+    ],
+    "expenses": [
+      {
+        "id": 1,
+        "category": "Nocleg",
+        "totalAmount": 2000,
+        "payments": [{"participantId": 1, "amount": 2000}],
+        "sharedWith": [1, 2, 3]
+      },
+      {
+        "id": 2,
+        "category": "Benzyna",
+        "totalAmount": 500,
+        "payments": [{"participantId": 2, "amount": 500}],
+        "sharedWith": [1, 2, 3]
+      },
+      {
+        "id": 3,
+        "category": "Jedzenie",
+        "totalAmount": 200,
+        "payments": [{"participantId": 3, "amount": 200}],
+        "sharedWith": [1, 2, 3]
+      }
+    ]
+}
+
+###
+#
+GET http://localhost:8080/api/events/2
