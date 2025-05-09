@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/inflop/splitty/internal/domain/model"
-	"github.com/inflop/splitty/internal/domain/repository"
+	"github.com/inflop/splitty.api/internal/domain/model"
+	"github.com/inflop/splitty.api/internal/domain/repository"
 )
 
 // Sprawdzenie czy implementacja spełnia interfejs

@@ -3,8 +3,8 @@ package repository_test
 import (
 	"testing"
 
-	"github.com/inflop/splitty/internal/domain/model"
-	"github.com/inflop/splitty/internal/infrastructure/repository"
+	"github.com/inflop/splitty.api/internal/domain/model"
+	"github.com/inflop/splitty.api/internal/infrastructure/repository"
 )
 
 func TestSaveAndFindByID(t *testing.T) {

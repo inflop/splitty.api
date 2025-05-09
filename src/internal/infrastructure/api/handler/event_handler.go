@@ -6,9 +6,9 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/inflop/splitty/internal/domain/model"
-	"github.com/inflop/splitty/internal/domain/repository"
-	"github.com/inflop/splitty/internal/domain/service"
+	"github.com/inflop/splitty.api/internal/domain/model"
+	"github.com/inflop/splitty.api/internal/domain/repository"
+	"github.com/inflop/splitty.api/internal/domain/service"
 )
 
 // EventHandler obsługuje zapytania HTTP związane z wydarzeniami

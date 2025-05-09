@@ -6,10 +6,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/inflop/splitty/internal/domain/service"
-	"github.com/inflop/splitty/internal/infrastructure/api/handler"
-	"github.com/inflop/splitty/internal/infrastructure/api/router"
-	repo "github.com/inflop/splitty/internal/infrastructure/repository"
+	"github.com/inflop/splitty.api/internal/domain/service"
+	"github.com/inflop/splitty.api/internal/infrastructure/api/handler"
+	"github.com/inflop/splitty.api/internal/infrastructure/api/router"
+	repo "github.com/inflop/splitty.api/internal/infrastructure/repository"
 	"github.com/rs/cors"
 )
 

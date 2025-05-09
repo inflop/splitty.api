@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/inflop/splitty/internal/infrastructure/api/handler"
+	"github.com/inflop/splitty.api/internal/infrastructure/api/handler"
 )
 
 // SetupRoutes konfiguruje ścieżki API

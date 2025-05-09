@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/inflop/splitty/internal/domain/model"
+import "github.com/inflop/splitty.api/internal/domain/model"
 
 // EventRepository definiuje interfejs dla repozytorium wydarzeń
 type EventRepository interface {

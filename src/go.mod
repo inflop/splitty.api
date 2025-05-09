@@ -1,4 +1,4 @@
-module github.com/inflop/splitty
+module github.com/inflop/splitty.api
 
 go 1.24.3
 

@@ -3,7 +3,7 @@ package service
 import (
 	"math"
 
-	"github.com/inflop/splitty/internal/domain/model"
+	"github.com/inflop/splitty.api/internal/domain/model"
 )
 
 // ExpenseService obsługuje operacje na wydatkach i rozliczeniach
